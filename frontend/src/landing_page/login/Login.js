@@ -23,7 +23,7 @@ const Login = () => {
       setError("");
       setFormData({ email: "", password: "" });
 
-      window.location.href = "https://viveksingh200.github.io/ZerodhaClone/";
+      window.location.href = "http://localhost:3001";
 
     } catch (err) {
       setError(err.response?.data?.message || "Login failed.");
